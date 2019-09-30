@@ -19,7 +19,7 @@ courses = temp
 
 # Pattern for date(mentioned alongwith exam name in page) and marks matching
 DatePattern = re.compile("[0-3][0-9]-[0-1][0-9]-2019")
-MarksPattern = re.compile("^[0-9]+$")
+MarksPattern = re.compile("^[0-9]+[.]*[0-9]*$")
 
 username = "kathuria.1"
 # Hidden input in console by getpass

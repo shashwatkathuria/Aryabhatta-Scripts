@@ -18,7 +18,7 @@ temp = [(course,"attendanceViewStudent.do?code=" + course + "&opt=View" ) for co
 courses = temp
 
 # Pattern for attendance matching
-AttendancePattern = re.compile("^[0-9]+ / [0-9]+ %$")
+AttendancePattern = re.compile("^[0-9]+ / [0-9]+[.]*[0-9]* %$")
 
 username = "kathuria.1"
 # Hidden input in console by getpass
