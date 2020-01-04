@@ -13,7 +13,7 @@ from getpass import getpass
 baseUrl = "http://intra.iitj.ac.in:8080/Aryabhatta/"
 loginUrl = "login.do"
 attendanceUrl = "attendanceReport.do"
-courses = ['CS311', 'CS312', 'CS313', 'CS314', 'HS311', 'HSL4020']
+courses = ['CS321', 'CS322', 'CS323', 'CS399', 'HS321', 'CSL7080', 'CSL7091']
 temp = [(course,"attendanceViewStudent.do?code=" + course + "&opt=View" ) for course in courses]
 courses = temp
 
